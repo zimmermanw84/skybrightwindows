@@ -7,5 +7,10 @@ Rails.application.config.assets.version = '1.0'
 # Rails.application.config.assets.paths << Emoji.images_path
 
 # Precompile additional assets.
+Rails.application.config.assets.precompile += %w( fonts/flexslider-icon.eot )
+Rails.application.config.assets.precompile += %w( fonts/flexslider-icon.woff )
+Rails.application.config.assets.precompile += %w( fonts/flexslider-icon.ttf )
+Rails.application.config.assets.precompile += %w( fonts/flexslider-icon.svg )
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
+
