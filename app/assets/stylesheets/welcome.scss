@@ -20,6 +20,11 @@
   text-align: center;
 }
 
+.contact-info li {
+  list-style: none;
+  display: inline-block;
+}
+
 .overlay-container {
   background-color: rgba(0,0,0, .5);
   z-index: -1;
@@ -63,23 +68,63 @@ header h1 {
 .service {
   /*border: 2px solid green;*/
   display: inline-block;
-
 }
 
 .services-container {
   /*border: 2px solid red;*/
+  /*color: white;*/
   min-height: 30%;
   min-width: 100%;
-  background-color: #edefed;
+  /*background-color: #edefed;*/
+  background-color: #4ac0e4;
 }
 
 .flexslider {
   max-width: 40em;
   max-height: 20em;
+  background-color: #4ac0e4 !important;
+  border: 0px solid white !important;
+  margin-top: 3em !important;
+}
+
+.slider-area-op-container {
+  padding-top: 2em;
+  color: white;
+  background-color: black;
 }
 
 .slider-img {
-  width: 40em;
-  height: 20em;
+  /* non background img style */
+  position: relative;
+  overflow: hidden;
+  /*width: 40em !important;*/
+  /*height: 20em !important;*/
+  background-image: url("/assets/windows1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
+.social-list {
+  display: inline-block;
+}
+
+.social-list li {
+  display: inline-block;
+}
+
+.social-list li a i {
+  font-size: 2em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+#footer-logo {
+  max-height: 11em;
+  max-width: 11em;
+  float: right;
+  margin-top: .5em;
+}

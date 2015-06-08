@@ -10,8 +10,13 @@
 <div class="contact-info">
   <h2>925-400-SKYE(7593)</h2>
   <h3>1647 Willow Pass Rd. Suite 513. Concord, CA 94520</h3>
+  <ul>
+      <li><h3>Contra Costa County <span class="glyphicon glyphicon-option-vertical"></span></h3></li>
+      <li><h3> San Joaquin County <span class="glyphicon glyphicon-option-vertical"></span></h3></li>
+      <li><h3> Alameda County <span class="glyphicon glyphicon-option-vertical"></span></h3></li>
+      <li><h3> Solano County</h3></li>
+    </ul>
 </div>
-
 <div class="services-container">
   <div class="container">
     <div class="row">
@@ -21,17 +26,15 @@
     </div>
     <div class="row">
       <center>
-        <!-- TODO: Add Bootstrap Responsive Grid -->
-        <!-- <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div> -->
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
           <div class="service">
-            <h1><span class="label label-info">Your Home</span></h1>
+            <h1><span class="label">Your Home</span></h1>
             <ul class="list-group">
-              <li class="list-group-item">Test Services</li>
-              <li class="list-group-item">Test Services</li>
-              <li class="list-group-item">Test Services</li>
-              <li class="list-group-item">Test Services</li>
-              <li class="list-group-item">Test Services</li>
+              <li class="list-group-item">Clean Screens</li>
+              <li class="list-group-item">Wipe Tracks</li>
+              <li class="list-group-item">Clean Cob Webs</li>
+              <li class="list-group-item">Razor Clean Windows</li>
+              <li class="list-group-item">Clean All Windows Inside and Out</li>
             </ul>
           </div>
         </div>
@@ -47,31 +50,54 @@
                 <!-- <div id="business" class: 'slider-img'></div> -->
               </li>
               <li>
-                <!-- <div id="window-water" class: 'slider-img'></div> -->
                 <%= image_tag('window-water.jpg', class: 'slider-img') %>
+                <!-- <div id="window-water" class: 'slider-img'></div> -->
               </li>
               <li>
-                <div id="window-open" class: 'slider-img'></div>
                 <%= image_tag('window-open.jpg', class: 'slider-img') %>
+                <!-- <div id="window-open" class: 'slider-img'></div> -->
               </li>
             </ul>
-          </div>
         </div>
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-
-          <div class="service">
-            <h1><span class="label label-info">Commercial</span></h1>
-            <ul class="list-group">
-              <li class="list-group-item">Test Services</li>
-              <li class="list-group-item">Test Services</li>
-              <li class="list-group-item">Test Services</li>
-              <li class="list-group-item">Test Services</li>
-              <li class="list-group-item">Test Services</li>
-            </ul>
-          </div>
-
-        </center>
       </div>
-    </div> <!-- End Row -->
-  </div>
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+        <div class="service">
+          <h1><span class="label">Commercial</span></h1>
+          <ul class="list-group">
+            <li class="list-group-item">Remove Webs</li>
+            <li class="list-group-item">Wipe Sills</li>
+            <li class="list-group-item">Clean All Windows Inside and Out</li>
+            <h1><span class="label">Commercial Add Ons</span></h1>
+            <li class="list-group-item">Razor Clean</li>
+            <li class="list-group-item">Construction Clean</li>
+            <li class="list-group-item">Paint Removal</li>
+          </ul>
+        </div>
+      </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+  </center>
+  </div> <!-- End Row -->
 </div>
+<footer>
+  <div class="container">
+    <ul class="social-list">
+      <h4>Connect with us on social media</h4>
+      <li>
+        <a class="btn btn-block btn-social btn-facebook">
+          <i class="fa fa-facebook"></i>
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-block btn-social btn-twitter">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-block btn-social btn-google">
+          <i class="fa fa-google"></i>
+        </a>
+      </li>
+    </ul>
+    <%= image_tag('ivnvoicelogo.png', id: 'footer-logo') %>
+  </div>
+</footer>

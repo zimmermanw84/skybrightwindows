@@ -29,6 +29,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'unicorn'
 # Bootstrap
 gem 'bootstrap-sass', '~> 3.3.4'
+# Font Awesome
+gem "font-awesome-rails"
 # Sitemap Generator
 gem 'sitemap_generator'
 # Use Capistrano for deployment
