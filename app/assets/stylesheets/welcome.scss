@@ -70,12 +70,25 @@ header h1 {
   display: inline-block;
 }
 
+.services-container ul {
+  box-shadow: 2px 2px black;
+}
+
+.service h1 {
+  color: white;
+  text-shadow: 1px 1px #333333;
+}
+
 .services-container {
   /*border: 2px solid red;*/
   /*color: white;*/
+  /*background-color: #edefed;*/
+  /*background-attachment: fixed;*/
+  background-image: url("/assets/fantasy.jpg");
+  background-position: center;
+  background-size: cover;
   min-height: 30%;
   min-width: 100%;
-  /*background-color: #edefed;*/
   background-color: #4ac0e4;
 }
 
@@ -99,10 +112,10 @@ header h1 {
   overflow: hidden;
   /*width: 40em !important;*/
   /*height: 20em !important;*/
-  background-image: url("/assets/windows1.jpg");
+  /*background-image: url("/assets/windows1.jpg");
   background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .social-list {
